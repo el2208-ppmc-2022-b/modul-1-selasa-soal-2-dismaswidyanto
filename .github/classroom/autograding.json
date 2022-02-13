@@ -1,0 +1,104 @@
+{
+  "tests": [
+    {
+      "name": "1",
+      "setup": "make soal-02",
+      "run": "./soal-02",
+      "input": "2.35,3\r\n2.89,0",
+      "output": "Panjang kabel Ethernet minimal: 5.760000",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "2",
+      "setup": "make soal-02",
+      "run": "./soal-02",
+      "input": "0,0\r\n4,0",
+      "output": "Panjang kabel Ethernet minimal: 4.000000",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "3",
+      "setup": "make soal-02",
+      "run": "./soal-02",
+      "input": "0,1.5\r\n4,1.5",
+      "output": "Panjang kabel Ethernet minimal: 7.000000",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "4",
+      "setup": "make soal-02",
+      "run": "./soal-02",
+      "input": "2,0\r\n2,3",
+      "output": "Panjang kabel Ethernet minimal: 7.000000",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "5",
+      "setup": "make soal-02",
+      "run": "./soal-02",
+      "input": "0,0\r\n4,3",
+      "output": "Panjang kabel Ethernet minimal: 7.000000",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "6",
+      "setup": "make soal-02",
+      "run": "./soal-02",
+      "input": "4,0\r\n0,3",
+      "output": "Panjang kabel Ethernet minimal: 7.000000",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "7",
+      "setup": "make soal-02",
+      "run": "./soal-02",
+      "input": "0,3\r\n0,2",
+      "output": "Panjang kabel Ethernet minimal: 1.000000",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "8",
+      "setup": "make soal-02",
+      "run": "./soal-02",
+      "input": "2,0\r\n3,3",
+      "output": "Panjang kabel Ethernet minimal: 6.000000",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "9",
+      "setup": "make soal-02",
+      "run": "./soal-02",
+      "input": "0,1.345\r\n2.873,3",
+      "output": "Panjang kabel Ethernet minimal: 4.528000",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "10",
+      "setup": "make soal-02",
+      "run": "./soal-02",
+      "input": "2.76,0\r\n1.33,3",
+      "output": "Panjang kabel Ethernet minimal: 6.910000",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    }
+  ]
+}
